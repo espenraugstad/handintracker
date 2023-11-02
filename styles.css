@@ -36,6 +36,14 @@ button{
     font-weight: 600;
     margin: 0 .5rem;
     border: none;
+    cursor: pointer;
+}
+
+button.action:hover,
+button.danger:hover{
+    text-decoration: underline;
+    border: 1px solid black;
+    font-weight: 800;
 }
 
 button.action{
@@ -50,5 +58,6 @@ button.danger{
 
 button.inactive{
     background-color: #C8C8C8;
-    color: #8A8888
+    color: #8A8888;
+    cursor: auto;
 }
